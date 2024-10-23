@@ -1,0 +1,85 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background: #3498db;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Main Section Styling */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Converter Styling */
+.converter {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.converter label,
+.converter input,
+.converter select,
+.converter button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.converter input,
+.converter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.converter button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.converter button:hover {
+  background: #2980b9;
+}
+
+/* Result Styling */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Footer Styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
